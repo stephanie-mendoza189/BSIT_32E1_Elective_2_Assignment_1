@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace BSIT_32E1_Elective_2_Assignment_1.Controllers
 {
-    public class HomeController : Controller
+    public class HomeController : Microsoft.AspNetCore.Mvc.Controller
     {
         public IActionResult Index()
         {

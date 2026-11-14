@@ -1,0 +1,393 @@
+﻿@{
+    ViewData["Title"] = "Pre-Final Exam";
+}
+
+<div class="exam-page">
+
+    <div class="student-info">
+        <h2 style="margin: 0; font-size: 24px; font-weight: bold;">Mendoza, Stephanie P.  BSIT32E1</h2>
+    </div>
+
+    <div class="exam-content">
+
+        <div class="welcome-text">
+            <h2>IT ELECTIVE 3 - PRELIM A1 </h2>
+            <p>Questions and answers for IT Elective 3</p>
+        </div>
+
+        <div class="question-card">
+
+            <div class="question-number">
+                QUESTION 01
+            </div>
+
+            <h3>
+                What is the fundamental difference between Server-Side Rendering (SSR/MVC) and a Decoupled Web API architecture?
+            </h3>
+
+            <div class="choices">
+
+                <div class="choice">
+                    <span class="letter">A</span>
+                    <span>SSR returns JSON payloads, whereas a Web API compiles .cshtml Razor views on the server.</span>
+                </div>
+
+                <div class="choice correct">
+                    <span class="letter">B</span>
+                    <span>
+                        SSR compiles HTML views on the server and sends fully rendered markup to the browser, whereas a Web API acts as a stateless data provider returning raw JSON.
+                    </span>
+                </div>
+
+                <div class="choice">
+                    <span class="letter">C</span>
+                    <span>
+                        SSR only works with mobile applications, whereas Web APIs are restricted to desktop web browsers.
+                    </span>
+                </div>
+
+                <div class="choice">
+                    <span class="letter">D</span>
+                    <span>SSR requires client-side routing in React, whereas Web APIs manage HTML layouts directly on the server.</span>
+                </div>
+
+            </div>
+
+            <div class="answer-box">
+                <strong>ANSWER</strong>
+                <span>B. SSR compiles HTML views on the server and sends fully rendered markup to the browser, whereas a Web API acts as a stateless data provider returning raw JSON.</span>
+            </div>
+
+        </div>
+
+        <div class="question-card">
+
+            <div class="question-number">
+                QUESTION 02
+            </div>
+
+            <h3>
+                Why do Web API controllers in ASP.NET Core inherit from ControllerBase instead of Controller?
+            </h3>
+
+            <div class="choices">
+
+                <div class="choice">
+                    <span class="letter">A</span>
+                    <span>ControllerBase supports Razor View rendering using View() and ViewData</span>
+                </div>
+
+                <div class="choice correct">
+                    <span class="letter">B</span>
+                    <span>ControllerBase provides essential HTTP handling and routing without carrying unnecessary HTML view rendering overhead</span>
+                </div>
+
+                <div class="choice">
+                    <span class="letter">C</span>
+                    <span>Controller is obsolete in .NET 8 and cannot handle HTTP POST requests</span>
+                </div>
+
+                <div class="choice">
+                    <span class="letter">D</span>
+                    <span>ControllerBase automatically creates SQLite database files on application startup</span>
+                </div>
+
+            </div>
+
+            <div class="answer-box">
+                <strong>ANSWER</strong>
+                <span>B. ControllerBase provides essential HTTP handling and routing without carrying unnecessary HTML view rendering overhead</span>
+            </div>
+
+        </div>
+
+        <div class="question-card">
+
+            <div class="question-number">
+                QUESTION 03
+            </div>
+
+            <h3>
+                Which framework attribute automatically triggers an HTTP 400 Bad Request response when incoming request payloads fail structural model validation?
+            </h3>
+
+            <div class="choices">
+
+                <div class="choice">
+                    <span class="letter">A</span>
+                    <span>[Route]</span>
+                </div>
+
+                <div class="choice">
+                    <span class="letter">B</span>
+                    <span>[HttpGet]</span>
+                </div>
+
+                <div class="choice correct">
+                    <span class="letter">C</span>
+                    <span>[ApiController]</span>
+                </div>
+
+                <div class="choice">
+                    <span class="letter">D</span>
+                    <span>[FromQuery]</span>
+                </div>
+
+            </div>
+
+            <div class="answer-box">
+                <strong>ANSWER</strong>
+                <span>C. [ApiController]</span>
+            </div>
+
+        </div>
+
+        <div class="question-card">
+
+            <div class="question-number">
+                QUESTION 04
+            </div>
+
+            <h3>
+                Which HTTP status code should an API return after successfully creating a new resource via a POST request, along with a Location header pointing to the new URI?
+            </h3>
+
+            <div class="choices">
+
+                <div class="choice">
+                    <span class="letter">A</span>
+                    <span>200 OK</span>
+                </div>
+
+                <div class="choice correct">
+                    <span class="letter">B</span>
+                    <span>201 Created</span>
+                </div>
+
+                <div class="choice">
+                    <span class="letter">C</span>
+                    <span>204 No Content</span>
+                </div>
+
+                <div class="choice">
+                    <span class="letter">D</span>
+                    <span>404 Not Found</span>
+                </div>
+
+            </div>
+
+            <div class="answer-box">
+                <strong>ANSWER</strong>
+                <span>B. 201 Created</span>
+            </div>
+
+        </div>
+
+        <div class="question-card">
+
+            <div class="question-number">
+                QUESTION 05
+            </div>
+
+            <h3>
+                When a DELETE request successfully removes a resource from the server and returns no content in the response body, which HTTP status code is standard?
+            </h3>
+
+            <div class="choices">
+
+                <div class="choice">
+                    <span class="letter">A</span>
+                    <span>200 OK</span>
+                </div>
+
+                <div class="choice">
+                    <span class="letter">B</span>
+                    <span>201 Created</span>
+                </div>
+
+                <div class="choice correct">
+                    <span class="letter">C</span>
+                    <span>204 No Content</span>
+                </div>
+
+                <div class="choice">
+                    <span class="letter">D</span>
+                    <span>400 Bad Request</span>
+                </div>
+
+            </div>
+
+            <div class="answer-box">
+                <strong>ANSWER</strong>
+                <span>C. 204 No Content</span>
+            </div>
+
+        </div>
+
+        <div class="question-card">
+
+            <div class="question-number">
+                QUESTION 06
+            </div>
+
+            <h3>
+                Which of the following endpoint URIs follows RESTful resource-oriented naming best practices?
+            </h3>
+
+            <div class="choices">
+
+                <div class="choice">
+                    <span class="letter">A</span>
+                    <span>GET /api/getAllCourses</span>
+                </div>
+
+                <div class="choice correct">
+                    <span class="letter">B</span>
+                    <span>GET /api/courses</span>
+                </div>
+
+                <div class="choice">
+                    <span class="letter">C</span>
+                    <span>POST /api/createNewCourseRecord</span>
+                </div>
+
+                <div class="choice">
+                    <span class="letter">D</span>
+                    <span>POST /api/deleteCourseById?id=5</span>
+                </div>
+
+            </div>
+
+            <div class="answer-box">
+                <strong>ANSWER</strong>
+                <span>B. GET /api/courses</span>
+            </div>
+
+        </div>
+
+        <div class="question-card">
+
+            <div class="question-number">
+                QUESTION 07
+            </div>
+
+            <h3>
+                What is the primary function of the [Route("api/[controller]")] attribute in ASP.NET Core?
+            </h3>
+
+            <div class="choices">
+
+                <div class="choice">
+                    <span class="letter">A</span>
+                    <span>It connects the controller directly to an Entity Framework database context</span>
+                </div>
+
+                <div class="choice correct">
+                    <span class="letter">B</span>
+                    <span>It maps incoming URI request paths to the controller class using the class name token</span>
+                </div>
+
+                <div class="choice">
+                    <span class="letter">C</span>
+                    <span>It encrypts all incoming JSON payloads</span>
+                </div>
+
+                <div class="choice">
+                    <span class="letter">D</span>
+                    <span>It enables Cross-Origin Resource Sharing (CORS) for external React apps</span>
+                </div>
+
+            </div>
+
+            <div class="answer-box">
+                <strong>ANSWER</strong>
+                <span>B. It maps incoming URI request paths to the controller class using the class name token</span>
+            </div>
+
+        </div>
+
+        <div class="question-card">
+
+            <div class="question-number">
+                QUESTION 08
+            </div>
+
+            <h3>
+                Which HTTP verb is safe and idempotent, intended exclusively for retrieving resource data without altering server state?
+            </h3>
+
+            <div class="choices">
+
+                <div class="choice">
+                    <span class="letter">A</span>
+                    <span>POST</span>
+                </div>
+
+                <div class="choice">
+                    <span class="letter">B</span>
+                    <span>PUT</span>
+                </div>
+
+                <div class="choice correct">
+                    <span class="letter">C</span>
+                    <span>GET</span>
+                </div>
+
+                <div class="choice">
+                    <span class="letter">D</span>
+                    <span>DELETE</span>
+                </div>
+
+            </div>
+
+            <div class="answer-box">
+                <strong>ANSWER</strong>
+                <span>C. GET</span>
+            </div>
+
+        </div>
+
+        <div class="question-card">
+
+            <div class="question-number">
+                QUESTION 09
+            </div>
+
+            <h3>
+                In ASP.NET Core Web API, what wrapper type allows action methods to return either a strongly typed domain object or standard HTTP status result helpers (such as Ok(), NotFound())?
+            </h3>
+
+            <div class="choices">
+
+                <div class="choice">
+                    <span class="letter">A</span>
+                    <span>`Task</span>
+                </div>
+
+                <div class="choice correct">
+                    <span class="letter">B</span>
+                    <span>ActionResult<T></span>
+                </div>
+
+                <div class="choice">
+                    <span class="letter">C</span>
+                    <span></span>
+                </div>
+
+                <div class="choice">
+                    <span class="letter">D</span>
+                    <span></span>
+                </div>
+
+            </div>
+
+            <div class="answer-box">
+                <strong>ANSWER</strong>
+                <span>B. ActionResult<T></span>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
